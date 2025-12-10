@@ -205,3 +205,41 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ---- Delft3D-FM input ----
+*.pli
+*.ldb
+*.bc
+*.xyz
+*.mdu
+*.mor
+*.sed     
+*.nc
+*.ext
+*.arl
+*.ttd
+*.ini
+*.xyn
+
+# RTC
+*.xml
+*.xsd
+
+# Log files
+*.log
+*.err
+*.out
+
+# ---- Large temporary / auto-generated files ----
+*.tmp
+*.bak
+
+# ---- Figures/animations ----
+*.png
+*.jpg
+*.gif
+*.mp4
+
+# ---- OS-specific junk ----
+.DS_Store
+Thumbs.db
