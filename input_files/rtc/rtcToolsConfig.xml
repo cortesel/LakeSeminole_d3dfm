@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rtcToolsConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rtc="http://www.wldelft.nl/fews" xmlns="http://www.wldelft.nl/fews" xsi:schemaLocation="http://www.wldelft.nl/fews C:\Users\cortel\Desktop\new\rtc\rtcToolsConfig.xsd">
+  <general>
+    <description>RTC Model DeltaShell</description>
+    <poolRoutingScheme>Theta</poolRoutingScheme>
+    <theta>0.5</theta>
+  </general>
+  <rules>
+    <rule>
+      <pid id="[PID]Control Group 1/PID Rule">
+        <mode>PIDVEL</mode>
+        <settingMin>20</settingMin>
+        <settingMax>30</settingMax>
+        <settingMaxSpeed>0.005</settingMaxSpeed>
+        <kp>0.8</kp>
+        <ki>0.0002</ki>
+        <kd>0.0002</kd>
+        <input>
+          <x>[Input]Dam/water_level</x>
+          <setpointSeries>[SP]Control Group 1/PID Rule</setpointSeries>
+        </input>
+        <output>
+          <y>[Output]Woodruff_Dam_simple/CrestLevel</y>
+          <integralPart>[IP]Control Group 1/PID Rule</integralPart>
+          <differentialPart>[DP]Control Group 1/PID Rule</differentialPart>
+        </output>
+      </pid>
+    </rule>
+  </rules>
+</rtcToolsConfig>
