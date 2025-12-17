@@ -1,0 +1,116 @@
+<PAMDataset>
+  <Subdataset name="mesh2d_face_y_bnd">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="mesh2d_face_y_bnd#long_name">y-coordinate bounds of mesh faces (i.e. corner coordinates)</MDI>
+        <MDI key="mesh2d_face_y_bnd#standard_name">projection_y_coordinate</MDI>
+        <MDI key="mesh2d_face_y_bnd#units">m</MDI>
+        <MDI key="mesh2d_face_y_bnd#_FillValue">-999</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.8 UGRID-1.0 Deltares-0.10</MDI>
+        <MDI key="NC_GLOBAL#history">Created on 2025-05-27T15:31:41-0400, RGFGRID</MDI>
+        <MDI key="NC_GLOBAL#institution">Deltares</MDI>
+        <MDI key="NC_GLOBAL#references">http://www.deltares.nl</MDI>
+        <MDI key="NC_GLOBAL#source">RGFGRID 7.03.00.77422. Model: ---</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">3398912.0747591</MDI>
+          <MDI key="STATISTICS_MAXIMUM">3416934.0853076</MDI>
+          <MDI key="STATISTICS_MEAN">3407403.745176</MDI>
+          <MDI key="STATISTICS_STDDEV">3140.2585259625</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="mesh2d_face_x_bnd">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="mesh2d_face_x_bnd#long_name">x-coordinate bounds of mesh faces (i.e. corner coordinates)</MDI>
+        <MDI key="mesh2d_face_x_bnd#standard_name">projection_x_coordinate</MDI>
+        <MDI key="mesh2d_face_x_bnd#units">m</MDI>
+        <MDI key="mesh2d_face_x_bnd#_FillValue">-999</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.8 UGRID-1.0 Deltares-0.10</MDI>
+        <MDI key="NC_GLOBAL#history">Created on 2025-05-27T15:31:41-0400, RGFGRID</MDI>
+        <MDI key="NC_GLOBAL#institution">Deltares</MDI>
+        <MDI key="NC_GLOBAL#references">http://www.deltares.nl</MDI>
+        <MDI key="NC_GLOBAL#source">RGFGRID 7.03.00.77422. Model: ---</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">697155.0075798</MDI>
+          <MDI key="STATISTICS_MAXIMUM">725220.53808149</MDI>
+          <MDI key="STATISTICS_MEAN">701269.20064382</MDI>
+          <MDI key="STATISTICS_STDDEV">6166.3344275797</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="mesh2d_face_nodes">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="mesh2d_face_nodes#cf_role">face_node_connectivity</MDI>
+        <MDI key="mesh2d_face_nodes#long_name">Vertex nodes of mesh faces (counterclockwise)</MDI>
+        <MDI key="mesh2d_face_nodes#start_index">1</MDI>
+        <MDI key="mesh2d_face_nodes#_FillValue">-999</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.8 UGRID-1.0 Deltares-0.10</MDI>
+        <MDI key="NC_GLOBAL#history">Created on 2025-05-27T15:31:41-0400, RGFGRID</MDI>
+        <MDI key="NC_GLOBAL#institution">Deltares</MDI>
+        <MDI key="NC_GLOBAL#references">http://www.deltares.nl</MDI>
+        <MDI key="NC_GLOBAL#source">RGFGRID 7.03.00.77422. Model: ---</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_MAXIMUM">49952</MDI>
+          <MDI key="STATISTICS_MEAN">24938.53860794</MDI>
+          <MDI key="STATISTICS_STDDEV">13656.746497731</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="mesh2d_edge_nodes">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="mesh2d_edge_nodes#cf_role">edge_node_connectivity</MDI>
+        <MDI key="mesh2d_edge_nodes#long_name">Start and end nodes of mesh edges</MDI>
+        <MDI key="mesh2d_edge_nodes#start_index">1</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.8 UGRID-1.0 Deltares-0.10</MDI>
+        <MDI key="NC_GLOBAL#history">Created on 2025-05-27T15:31:41-0400, RGFGRID</MDI>
+        <MDI key="NC_GLOBAL#institution">Deltares</MDI>
+        <MDI key="NC_GLOBAL#references">http://www.deltares.nl</MDI>
+        <MDI key="NC_GLOBAL#source">RGFGRID 7.03.00.77422. Model: ---</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_MAXIMUM">49952</MDI>
+          <MDI key="STATISTICS_MEAN">24930.778072484</MDI>
+          <MDI key="STATISTICS_STDDEV">13701.452330495</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="mesh2d_edge_faces">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="mesh2d_edge_faces#cf_role">edge_face_connectivity</MDI>
+        <MDI key="mesh2d_edge_faces#long_name">Neighboring faces of mesh edges</MDI>
+        <MDI key="mesh2d_edge_faces#start_index">1</MDI>
+        <MDI key="mesh2d_edge_faces#_FillValue">-999</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.8 UGRID-1.0 Deltares-0.10</MDI>
+        <MDI key="NC_GLOBAL#history">Created on 2025-05-27T15:31:41-0400, RGFGRID</MDI>
+        <MDI key="NC_GLOBAL#institution">Deltares</MDI>
+        <MDI key="NC_GLOBAL#references">http://www.deltares.nl</MDI>
+        <MDI key="NC_GLOBAL#source">RGFGRID 7.03.00.77422. Model: ---</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_MAXIMUM">67866</MDI>
+          <MDI key="STATISTICS_MEAN">35914.193655576</MDI>
+          <MDI key="STATISTICS_STDDEV">19921.811799259</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>

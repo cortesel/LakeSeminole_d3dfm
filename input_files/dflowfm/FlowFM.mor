@@ -1,0 +1,51 @@
+[MorphologyFileInformation]
+    FileCreatedBy         = Deltares, FM-Suite DFlowFM Model Version 4.16.0.7431, DFlow FM Version Deltares, D-Flow FM1.2.184.16121e1c11da6767019cb454759df52aec1670fe 
+    FileCreationDate      = Wed Oct 08 2025, 19:46:56 
+    FileVersion           = 02.00                  
+[Morphology]
+    MorFac                = 1                      
+    MorStt                = 720                    
+    Thresh                = 0.1                    
+    SedThr                = 0.5                    
+    DensIn                = 0                      
+    BedUpd                = 0                      
+    CmpUpd                = 0                      
+    ISlope                = 2                      
+    AlfaBs                = 1                      
+    AlfaBn                = 1.5                    
+    Ashld                 = 0.85                   
+    Bshld                 = 0.5                    
+    Cshld                 = 0                      
+    Dshld                 = 0                      
+    CoulFri               = 0                      
+    FlFdRat               = 0                      
+    ThetaCr               = 0                      
+    IHidExp               = 1                      
+    ASKLHE                = 1                      
+    MWWJHE                = 1                      
+    Espir                 = 0.5                    
+    Sus                   = 1                      
+    Bed                   = 1                      
+    SusW                  = 1                      
+    BedW                  = 1                      
+    ThetSD                = 0                      
+    HMaxTH                = 1.5                    
+    BedUpdStt             = 691200                 
+    CmpUpdStt             = 604800                 
+    SedTransStt           = 720 
+
+[Underlayer]	
+    IUnderLyr             = 1                      
+
+[output]
+    TranspType            = 0
+    ShearVeloc            = 1                      
+    Taub                  = 1
+    taurat                = 1	
+    MudFrac               = 1                      
+    SandFrac              = 1
+	ReferenceHeight       = 1
+	RawTransportsAtZeta   = 1
+    BedTranspDueToCurrentsAtZeta  = 1
+    SuspTranspDueToCurrentsAtZeta = 1
+	AverageAtEachOutputTime       = 1
