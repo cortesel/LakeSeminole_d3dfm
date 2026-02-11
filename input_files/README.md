@@ -1,4 +1,4 @@
-This folder contains the Delft3D-FM model (coupled with RTC). In this version the best is fixed.
+This folder contains the Delft3D-FM model (coupled with RTC). In this version the bed is fixed.
 I also included the .bat and .sh files to run the model on Windows and Linux, respectively.
 
 The hydrodynamic model was calibrated using OpenDA using depth-averaged flow velocity measurements, while the sediment transport was calibrated using SSC samples.
@@ -7,3 +7,4 @@ The presence of invasive vegetation is modelled using the trachytope model with 
 At the outlet, a weir with adjustable crest is used to regulate the water level in the reservoir (this configuration has the same effect of the gate, but was found more stable).
 
 Water discharge from USGS gauges is imposed at the 3 upper boundary conditions (1 for each river). SSC timeseries is imposed only for the Chattahoochee and Flint Rivers using rating curves.
+
