@@ -3,8 +3,7 @@ In this folder you can find the files of publications or presentation or posters
 
 **PUBLICATIONS**
 
-- Li F., Snyder N. P., Bahr J., Cortese L., Dahl T., Dulin I., Kong T., Lueders-Dumont J., Tritinger A., & Zhai R. Riverine Nitrate Sources, Nitrate Cycling, and the Role of a Human-managed Reservoir: A Stable Isotope Study
-in the Apalachicola-Chattahoochee-Flint (ACF) Watershed. ESS Open Archive. 17 September 2026.https://doi.org/10.22541/essoar.15009009/v1.
+- Li F., Snyder N. P., Bahr J., **Cortese L.**, Dahl T., Dulin I., Kong T., Lueders-Dumont J., Tritinger A., & Zhai R. Riverine Nitrate Sources, Nitrate Cycling, and the Role of a Human-managed Reservoir: A Stable Isotope Study in the Apalachicola-Chattahoochee-Flint (ACF) Watershed. ESS Open Archive. 17 September 2026. https://doi.org/10.22541/essoar.15009009/v1.
 
 **CONFERENCES CONTRIBUTIONS**
 
