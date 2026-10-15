@@ -1,5 +1,6 @@
 cff-version: 1.2.0
-message: "If you use or modify the model setup or scripts consider citing this repository"
+message: "If you use or modify the model setup or scripts kindly cite this repository"
+type: software
 authors:
 - family-names: "Cortese"
   given-names: "Luca"
