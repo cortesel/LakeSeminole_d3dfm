@@ -1,5 +1,5 @@
 # Publications and conference presentations/posters
-In this folder you can find the files of publications or presentations and posters that feature the model.
+In this folder you can find the files of publications, presentations, and posters that feature the model.
 
 **PUBLICATIONS**
 
